@@ -1,0 +1,21 @@
+---
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r tabsets, echo=FALSE, warning=FALSE}
+library(shiny)
+library(leaflet)
+shinyAppDir(
+  system.file("examples/MyMap", package = "shiny"),
+  options = list(
+    width = "100%", height = 550
+  )
+)
+```
+
