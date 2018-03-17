@@ -4,7 +4,9 @@ Here are the steps to run my shiny application :
 
 - clone my repository locally
 
-- set it as your working directory
+- open RStudio
+
+- set the repo as your working directory
 
 - load the shiny library
 
